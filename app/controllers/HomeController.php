@@ -3,7 +3,6 @@
 
 class HomeController {
     public function index() {
-        //load associated view
-        require_once '../app/views/home/index.php';
+        require_once '../app/views/home/home.php';  // updated to home.php
     }
 }

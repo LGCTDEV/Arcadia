@@ -6,7 +6,7 @@ require_once '../core/Controller.php';
 require_once '../core/Model.php';
 require_once '../core/View.php';
 
-// Code de routage simple pour charger le contrôleur par défaut
+// Code de routage simple pour charger le contrôleur approprié
 if (isset($_GET['url'])) {
     $url = rtrim($_GET['url'], '/');
     $url = filter_var($url, FILTER_SANITIZE_URL);
